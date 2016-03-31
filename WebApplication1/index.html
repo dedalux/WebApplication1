@@ -3,15 +3,16 @@
 <head>
     <title></title>
 	<meta charset="utf-8" />
+    <!--Each relevant file needs to be included-->
     <script src="Scripts/angular.min.js"></script>
     <script src="Scripts/Scripts.js"></script>
+    <script src="Scripts/Filters.js"></script>
+    <link href="Styles.css" rel="stylesheet" />
 </head>
 <body>
     <div ng-controller="myController">
-        <div>
-            First Name : {{ employee.firstName }}
-            {{ 1 + 1}}
-        </div>
+        <div ng-include="'Features.html'"></div>
+        <div ng-include="'EmployeeView.html'"></div>
     </div>
 </body>
 </html>

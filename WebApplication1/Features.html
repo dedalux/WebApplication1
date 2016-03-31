@@ -1,0 +1,25 @@
+﻿<!-- Search text filter Lesson 11 -->
+<p>Search employees</p> <input type="text" placeholder="Search employees" ng-model="searchText" /> <!-- no need for declartion in js -->
+<p>Exact match: </p> <input type="checkbox" ng-model="exactMatch" />
+<br /><br />
+
+<!-- Hide column Lesson 14-->
+<p>Hide BMI: </p> <input type="checkbox" ng-model="hideBMI" />
+
+<!-- Row filter-->
+<p>Rows to display: </p> <input type="number" step="1" min="0" max="{{ employeesCount }}" ng-model="rowLimit" />
+<br />
+
+<!-- Column sort-->
+<p>Sort by column: </p>
+
+<!-- Column sort list -->
+<select ng-model="sortColumn">
+    <option value="firstName">First</option>
+    <option value="lastName">Last</option>
+    <option value="birthday">Birthday</option>
+    <option value="BMI">BMI</option>
+    <option value="up">Up</option>
+</select>
+
+<br /><br />

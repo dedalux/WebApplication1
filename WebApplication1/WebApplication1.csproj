@@ -66,9 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EmployeeView.html" />
+    <Content Include="Features.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\angular.min.js.map" />
-    <Content Include="app\app.module.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,12 +79,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".vscode\tasks.json" />
-    <Content Include="app\main.js" />
     <Content Include="index.html" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\Filters.js" />
     <Content Include="Scripts\Scripts.js" />
+    <Content Include="Styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
